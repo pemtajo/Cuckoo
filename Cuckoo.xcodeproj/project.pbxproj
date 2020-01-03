@@ -137,7 +137,6 @@
 		18E2A3371FBB31290058FEC5 /* ArgumentCaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2A25B1FBB1C330058FEC5 /* ArgumentCaptor.swift */; };
 		18E2A33D1FBB3D7F0058FEC5 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2A33B1FBB3D6E0058FEC5 /* GeneratedMocks.swift */; };
 		18E2A33E1FBB3D7F0058FEC5 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2A33B1FBB3D6E0058FEC5 /* GeneratedMocks.swift */; };
-		4B7FBF9641D4D1EA30054148 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		58C540B5C5EF0037F77C90B5 /* ExcludedTestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C54D12B64AF3169FC8A1A3 /* ExcludedTestClass.swift */; };
 		58C54612D0DB47A284F29AD5 /* ExcludedStubTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C54B2B810BC9284205CB16 /* ExcludedStubTest.swift */; };
 		58C54C0D4A65BCDC47704C0B /* ExcludedTestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C54D12B64AF3169FC8A1A3 /* ExcludedTestClass.swift */; };
@@ -2015,11 +2014,13 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/usr/lib";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
-					"-framework",
+					"-weak_framework",
 					XCTest,
+					"-weak-lXCTestSwiftSupport",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.Cuckoo;
 				PRODUCT_NAME = Cuckoo;
@@ -2094,10 +2095,12 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/usr/lib";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = (
-					"-framework",
+					"-weak_framework",
 					XCTest,
+					"-weak-lXCTestSwiftSupport",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.Cuckoo;
 				PRODUCT_NAME = Cuckoo;
