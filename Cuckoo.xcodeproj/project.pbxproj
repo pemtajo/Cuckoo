@@ -137,7 +137,6 @@
 		18E2A3371FBB31290058FEC5 /* ArgumentCaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2A25B1FBB1C330058FEC5 /* ArgumentCaptor.swift */; };
 		18E2A33D1FBB3D7F0058FEC5 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2A33B1FBB3D6E0058FEC5 /* GeneratedMocks.swift */; };
 		18E2A33E1FBB3D7F0058FEC5 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2A33B1FBB3D6E0058FEC5 /* GeneratedMocks.swift */; };
-		4B7FBF9641D4D1EA30054148 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		58C540B5C5EF0037F77C90B5 /* ExcludedTestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C54D12B64AF3169FC8A1A3 /* ExcludedTestClass.swift */; };
 		58C54612D0DB47A284F29AD5 /* ExcludedStubTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C54B2B810BC9284205CB16 /* ExcludedStubTest.swift */; };
 		58C54C0D4A65BCDC47704C0B /* ExcludedTestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C54D12B64AF3169FC8A1A3 /* ExcludedTestClass.swift */; };
@@ -370,10 +369,6 @@
 		68BBFAFC232933EC005533AD /* Set+matchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685D69A22320044400250BF2 /* Set+matchers.swift */; };
 		68E9EAE6224B9F34000DBD29 /* StubFunctionThenThrowingTrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E9EAE5224B9F34000DBD29 /* StubFunctionThenThrowingTrait.swift */; };
 		68E9EAFF224BA4B4000DBD29 /* StubFunctionThenThrowingTrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E9EAE5224B9F34000DBD29 /* StubFunctionThenThrowingTrait.swift */; };
-		6C79A9E5C192C97413AD9282 /* Pods_Cuckoo_OCMock_macOS_Cuckoo_OCMock_macOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2428FD13E9D60777FD50543 /* Pods_Cuckoo_OCMock_macOS_Cuckoo_OCMock_macOSTests.framework */; };
-		8B76EA74C15348669E4436A8 /* Pods_Cuckoo_OCMock_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BAAED8013A4D60184AE8AF /* Pods_Cuckoo_OCMock_iOS.framework */; };
-		CEBC0BBD0A6069A264028CF9 /* Pods_Cuckoo_OCMock_iOS_Cuckoo_OCMock_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF8DD912AD895795907B57E /* Pods_Cuckoo_OCMock_iOS_Cuckoo_OCMock_iOSTests.framework */; };
-		E18F63B1C737ACB150812A40 /* Pods_Cuckoo_OCMock_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD48ACC4B7A73A7D9D92B039 /* Pods_Cuckoo_OCMock_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -583,14 +578,8 @@
 		18E2A33B1FBB3D6E0058FEC5 /* GeneratedMocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
 		18E2A3401FBB3FDD0058FEC5 /* CuckooGenerator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CuckooGenerator.xcodeproj; path = Generator/CuckooGenerator.xcodeproj; sourceTree = "<group>"; };
 		18E2A3971FBB43E60058FEC5 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
-		2365BE42EF47CE1CC6E62A17 /* Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests.release.xcconfig"; path = "Target Support Files/Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests/Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		2913AE64CB484F83545FEEF8 /* Pods-Cuckoo+OCMock-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuckoo+OCMock-macOS.release.xcconfig"; path = "Target Support Files/Pods-Cuckoo+OCMock-macOS/Pods-Cuckoo+OCMock-macOS.release.xcconfig"; sourceTree = "<group>"; };
-		32851BA9B09BD1E6E129F4A2 /* Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests/Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		33E76C77487ABA93ACBCD8AB /* Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests.release.xcconfig"; path = "Target Support Files/Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests/Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		512517B2B2D932294DB3AB2A /* Pods-Cuckoo+OCMock-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuckoo+OCMock-iOS.release.xcconfig"; path = "Target Support Files/Pods-Cuckoo+OCMock-iOS/Pods-Cuckoo+OCMock-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		58C54B2B810BC9284205CB16 /* ExcludedStubTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcludedStubTest.swift; sourceTree = "<group>"; };
 		58C54D12B64AF3169FC8A1A3 /* ExcludedTestClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcludedTestClass.swift; sourceTree = "<group>"; };
-		64BAAED8013A4D60184AE8AF /* Pods_Cuckoo_OCMock_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuckoo_OCMock_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		680894BE21ABFDCB00C8D2EF /* GenericClassTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericClassTest.swift; sourceTree = "<group>"; };
 		680D3964229D328E004A921E /* NSObject+TrustMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TrustMe.h"; sourceTree = "<group>"; };
 		680D3965229D328E004A921E /* OCMockObject+Workaround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCMockObject+Workaround.h"; sourceTree = "<group>"; };
@@ -633,12 +622,6 @@
 		68BBF90C232260D2005533AD /* StubRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubRecorder.swift; sourceTree = "<group>"; };
 		68BBF92523226165005533AD /* Stubber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stubber.swift; sourceTree = "<group>"; };
 		68E9EAE5224B9F34000DBD29 /* StubFunctionThenThrowingTrait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubFunctionThenThrowingTrait.swift; sourceTree = "<group>"; };
-		6E049C91316C2BE44DF1A300 /* Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests/Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7FDD200E9234B0AF833C5352 /* Pods-Cuckoo+OCMock-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuckoo+OCMock-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Cuckoo+OCMock-iOS/Pods-Cuckoo+OCMock-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		E2428FD13E9D60777FD50543 /* Pods_Cuckoo_OCMock_macOS_Cuckoo_OCMock_macOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuckoo_OCMock_macOS_Cuckoo_OCMock_macOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED0735CF4FF1F8E9AC88B01F /* Pods-Cuckoo+OCMock-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuckoo+OCMock-macOS.debug.xcconfig"; path = "Target Support Files/Pods-Cuckoo+OCMock-macOS/Pods-Cuckoo+OCMock-macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		FD48ACC4B7A73A7D9D92B039 /* Pods_Cuckoo_OCMock_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuckoo_OCMock_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDF8DD912AD895795907B57E /* Pods_Cuckoo_OCMock_iOS_Cuckoo_OCMock_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuckoo_OCMock_iOS_Cuckoo_OCMock_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -676,7 +659,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B76EA74C15348669E4436A8 /* Pods_Cuckoo_OCMock_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,8 +667,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				680D3A73229D3693004A921E /* Cuckoo.framework in Frameworks */,
-				4B7FBF9641D4D1EA30054148 /* (null) in Frameworks */,
-				CEBC0BBD0A6069A264028CF9 /* Pods_Cuckoo_OCMock_iOS_Cuckoo_OCMock_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,7 +674,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E18F63B1C737ACB150812A40 /* Pods_Cuckoo_OCMock_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,7 +682,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6862682622BA8BAA00FD8A1A /* Cuckoo.framework in Frameworks */,
-				6C79A9E5C192C97413AD9282 /* Pods_Cuckoo_OCMock_macOS_Cuckoo_OCMock_macOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -972,10 +950,6 @@
 				680D3A93229D3D5C004A921E /* OCMock.framework */,
 				18E2A32F1FBB24410058FEC5 /* XCTest.framework */,
 				18E2A32E1FBB24390058FEC5 /* XCTest.framework */,
-				FD48ACC4B7A73A7D9D92B039 /* Pods_Cuckoo_OCMock_macOS.framework */,
-				E2428FD13E9D60777FD50543 /* Pods_Cuckoo_OCMock_macOS_Cuckoo_OCMock_macOSTests.framework */,
-				64BAAED8013A4D60184AE8AF /* Pods_Cuckoo_OCMock_iOS.framework */,
-				FDF8DD912AD895795907B57E /* Pods_Cuckoo_OCMock_iOS_Cuckoo_OCMock_iOSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1048,14 +1022,6 @@
 		9732B89455BD0CE3F1C980EF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7FDD200E9234B0AF833C5352 /* Pods-Cuckoo+OCMock-iOS.debug.xcconfig */,
-				512517B2B2D932294DB3AB2A /* Pods-Cuckoo+OCMock-iOS.release.xcconfig */,
-				6E049C91316C2BE44DF1A300 /* Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests.debug.xcconfig */,
-				2365BE42EF47CE1CC6E62A17 /* Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests.release.xcconfig */,
-				ED0735CF4FF1F8E9AC88B01F /* Pods-Cuckoo+OCMock-macOS.debug.xcconfig */,
-				2913AE64CB484F83545FEEF8 /* Pods-Cuckoo+OCMock-macOS.release.xcconfig */,
-				32851BA9B09BD1E6E129F4A2 /* Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests.debug.xcconfig */,
-				33E76C77487ABA93ACBCD8AB /* Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1186,7 +1152,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 680D3A42229D3671004A921E /* Build configuration list for PBXNativeTarget "Cuckoo+OCMock-iOS" */;
 			buildPhases = (
-				C9FCE13CB7D474E9F81D70F0 /* [CP] Check Pods Manifest.lock */,
 				680D3A10229D3671004A921E /* Sources */,
 				680D3A3B229D3671004A921E /* Frameworks */,
 				680D3A3C229D3671004A921E /* Headers */,
@@ -1205,12 +1170,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 680D3A75229D3693004A921E /* Build configuration list for PBXNativeTarget "Cuckoo+OCMock_iOSTests" */;
 			buildPhases = (
-				15C069A778AA4CE3550B9220 /* [CP] Check Pods Manifest.lock */,
 				680D3A4A229D3693004A921E /* Generate Mocks */,
 				680D3A4B229D3693004A921E /* Sources */,
 				680D3A72229D3693004A921E /* Frameworks */,
 				680D3A74229D3693004A921E /* Resources */,
-				D1E1775CE27FA7111FC409AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1226,7 +1189,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 686267DD22BA8BA700FD8A1A /* Build configuration list for PBXNativeTarget "Cuckoo+OCMock-macOS" */;
 			buildPhases = (
-				686267A122BA8BA700FD8A1A /* [CP] Check Pods Manifest.lock */,
 				686267A222BA8BA700FD8A1A /* Sources */,
 				686267D422BA8BA700FD8A1A /* Frameworks */,
 				686267D622BA8BA700FD8A1A /* Headers */,
@@ -1245,12 +1207,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6862682A22BA8BAA00FD8A1A /* Build configuration list for PBXNativeTarget "Cuckoo+OCMock_macOSTests" */;
 			buildPhases = (
-				686267FB22BA8BAA00FD8A1A /* [CP] Check Pods Manifest.lock */,
 				686267FC22BA8BAA00FD8A1A /* Generate Mocks */,
 				686267FD22BA8BAA00FD8A1A /* Sources */,
 				6862682522BA8BAA00FD8A1A /* Frameworks */,
 				6862682822BA8BAA00FD8A1A /* Resources */,
-				6862682922BA8BAA00FD8A1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1487,28 +1447,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		15C069A778AA4CE3550B9220 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		18E2A3381FBB34800058FEC5 /* Generate Mocks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1554,50 +1492,6 @@
 			shellPath = /bin/sh;
 			shellScript = "GENERATE=1\n\nif [ $GENERATE -ne 0 ]; then\nenv -i PATH=$PATH PROJECT_DIR=$PROJECT_DIR USE_RUN=$USE_RUN swift \"$PROJECT_DIR/GenerateMocksForTests.swift\"\nfi\n";
 		};
-		686267A122BA8BA700FD8A1A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cuckoo+OCMock-macOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		686267FB22BA8BAA00FD8A1A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		686267FC22BA8BAA00FD8A1A /* Generate Mocks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1612,64 +1506,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "GENERATE=1\n\nif [ $GENERATE -ne 0 ]; then\nenv -i PATH=$PATH PROJECT_DIR=$PROJECT_DIR USE_RUN=$USE_RUN swift \"$PROJECT_DIR/GenerateMocksForTests.swift\"\nfi\n";
-		};
-		6862682922BA8BAA00FD8A1A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests/Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/OCMock-macOS/OCMock.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests/Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C9FCE13CB7D474E9F81D70F0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cuckoo+OCMock-iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D1E1775CE27FA7111FC409AD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests/Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/OCMock-iOS/OCMock.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests/Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -2178,11 +2014,13 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/usr/lib";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
-					"-framework",
+					"-weak_framework",
 					XCTest,
+					"-weak-lXCTestSwiftSupport",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.Cuckoo;
 				PRODUCT_NAME = Cuckoo;
@@ -2257,10 +2095,12 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/usr/lib";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = (
-					"-framework",
+					"-weak_framework",
 					XCTest,
+					"-weak-lXCTestSwiftSupport",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.brightify.Cuckoo;
 				PRODUCT_NAME = Cuckoo;
@@ -2690,7 +2530,6 @@
 		};
 		680D3A43229D3671004A921E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FDD200E9234B0AF833C5352 /* Pods-Cuckoo+OCMock-iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -2778,7 +2617,6 @@
 		};
 		680D3A44229D3671004A921E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 512517B2B2D932294DB3AB2A /* Pods-Cuckoo+OCMock-iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -2859,7 +2697,6 @@
 		};
 		680D3A76229D3693004A921E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E049C91316C2BE44DF1A300 /* Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2926,7 +2763,6 @@
 		};
 		680D3A77229D3693004A921E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2365BE42EF47CE1CC6E62A17 /* Pods-Cuckoo+OCMock-iOS-Cuckoo+OCMock_iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2986,7 +2822,6 @@
 		};
 		686267DE22BA8BA700FD8A1A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED0735CF4FF1F8E9AC88B01F /* Pods-Cuckoo+OCMock-macOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3076,7 +2911,6 @@
 		};
 		686267DF22BA8BA700FD8A1A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2913AE64CB484F83545FEEF8 /* Pods-Cuckoo+OCMock-macOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3158,7 +2992,6 @@
 		};
 		6862682B22BA8BAA00FD8A1A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32851BA9B09BD1E6E129F4A2 /* Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -3226,7 +3059,6 @@
 		};
 		6862682C22BA8BAA00FD8A1A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33E76C77487ABA93ACBCD8AB /* Pods-Cuckoo+OCMock-macOS-Cuckoo+OCMock_macOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
